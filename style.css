@@ -1,0 +1,414 @@
+
+
+/* Page Style */
+
+body {
+	background: #fff;
+	font-family: Verdana, Arial, Helvetica, sans serif;
+	padding: 0;
+}
+
+#site-container {
+	background: #fff;
+	margin: auto;
+	display: block;
+	border: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.row, .container {
+		min-width: 100% !important;
+	}
+
+header, main {
+	background: #fff;
+	
+}
+
+main p {
+	padding: 1em;
+}
+
+main h2 {
+	padding-left: 1em;
+}
+
+header {
+	font-family: Verdana, Arial, Helvetica, sans serif;
+	font-weight: bold;
+	font-size: .9em;
+	padding: 1em;
+}
+
+header a {
+	color: #003366;
+	font-size: .75em;
+}
+
+body a {
+	color: #003366;
+}
+
+.linkspace {
+	padding-bottom: .75em;
+}
+
+.header-txt {
+	margin: auto;
+	text-align: center;
+	padding-bottom: .5em;
+}
+
+.header-links {
+	margin: auto;
+	text-align: center;
+	padding-bottom: .5em;
+}
+
+.column {
+	display: inline-flex;
+	padding: 2em;
+
+}
+
+#logo {
+	margin: auto;
+	text-align: center;
+}
+
+.bold-p {
+	font-weight: bold;
+}
+
+.main-img {
+	text-align: center;
+	display: block;
+	margin: auto;
+	padding: 1em;
+}
+
+#sedge-img {
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+}
+
+.txt-center {
+	text-align: center;
+	padding: 0 1em;
+}
+
+.no-deco {
+	list-style-type: none;
+}
+
+
+/* ----------   SIDEBAR   ------------ */
+
+#sidebar {
+	padding: .2em;
+}
+
+.sidebar-img {
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+/* ----------   MAIN CONTENT   ---------- */
+#main-content {
+	display: block;
+	
+	
+}
+
+
+
+#fee-table {
+	border-collapse: collapse;
+	display: inline-table;
+	margin: auto;
+	text-align: center;
+}
+
+.fee-td {
+	border: 2px solid #fff;
+	padding: .5em;
+	
+}
+
+td:nth-child(1).fee-td {  
+  background: #ddf9e6;
+}
+
+td:nth-child(2).fee-td {  
+  background: #33cc00;
+}
+
+td:nth-child(3).fee-td {  
+  background: #dfe8bf;
+}
+
+
+#fishing-table {
+	border-collapse: collapse;
+	display: inline-table;
+	margin: auto;
+	text-align: center;
+}
+
+.fishing-td {
+	border: 2px solid #fff;
+	padding: .5em;
+	text-align: left;
+	
+}
+
+td:nth-child(1).fishing-td {  
+  background: #ddf9e6;
+}
+
+td:nth-child(2).fishing-td {  
+  background: #dfe8bf;
+}
+
+#faq-table {
+	border-collapse: collapse;
+	display: inline-table;
+	margin: auto;
+	text-align: center;
+	margin: 2em auto;
+	
+}
+
+tr:nth-child(odd).faq-tr {
+	background: #dfe8bf;
+}
+
+.faq-td {
+	border: 0;
+	padding: .5em;
+	text-align: left;
+}
+
+td:nth-child(even).faq-td {
+	background: #fff;
+	padding-left: 2em;
+}
+
+.center-div {
+	text-align: center;
+}
+
+.stripe-grn {
+	background: #ddf9e6;
+	width: 100%;
+	font-weight: bold;
+}
+
+.stripe-bright-grn {
+	background: #ccffcc;
+	width: 100%;
+	font-weight: bold;
+}
+
+.stripe-pale-green {
+	background: #b3c2b3;
+	width: 100%;
+	font-weight: bold;
+	overflow: none;
+	margin-top: 2em;
+}
+
+#trails {
+	display: block;
+	margin: 0;
+	padding-right: .4em;
+
+}
+
+.stripe-red {
+	background: red;
+	width: 100%;
+	color: #fff;
+	font-weight: bold;
+	padding: .5em 0;
+	
+}
+
+.stripe-txt {
+	margin: .75em;
+}
+
+.inline-img {
+	float: left;
+	padding: 0 .6	em;
+	margin-right: 1em;
+}
+
+.homepage-video {
+	display: block;
+	margin: 2em auto;
+}
+
+#highlights {
+	background: #003300;
+	border-radius: 10px 10px 0px 0px;
+	width: 100%;
+	padding: .25em;
+	display: block;
+	margin: auto;
+	overflow: none;
+}
+
+.left-pad {
+	padding-left: 1em;
+}
+
+footer {
+	text-align: center;
+}
+
+#footer-copy {
+	padding: 1em 0 3em;
+}
+
+#footer-links-1 {
+/*    Mobile: Centered -- Desktop: Float Right   */
+	text-align: center;
+	font-weight: bold;
+	padding-top: 2em;
+}
+
+.mobile-hide {
+	display: none;
+}
+
+
+/*  Responsive Navigation Menu Style  */
+
+ /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #003366;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all .2s ease-in-out;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #cc9;
+  color: black;
+  transform: scale(1.1);
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries  */
+
+@media only screen and (min-width: 1000px) {
+
+	
+	#site-container {
+		
+		box-shadow: 3px 3px 10px 12px #777,
+					-3px -3px 10px 12px #999;
+		min-height: 1000px;
+		padding: 0;
+
+	}
+
+	.header-txt, .header-links {
+		text-align: right;
+	}
+
+	#logo {
+		text-align: left;
+	}
+
+	.mobile-hide {
+		display: block;
+	}
+
+	#footer-links-1 {
+		text-align: right;
+		padding: 1em;
+
+	}
+
+	#footer-links-2, #footer-links-3, #footer-copy {
+		text-align: left;
+		padding-left: 1em;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	#site-container {
+		width: 90%;
+	}
+
+	
+}
+
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1000px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 1000px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
